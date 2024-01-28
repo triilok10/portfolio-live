@@ -1,0 +1,14 @@
+@import '../../styles/contants.scss';
+.wrapper {
+    position: relative;
+    button {
+        border-radius: 5px;
+        padding: 20px 16px;
+        font-size: 1.3rem;
+        &:hover {
+            color: $yellow;
+            cursor: pointer;
+            background-color: $bg;
+        }
+    }
+}

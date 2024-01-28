@@ -1,0 +1,18 @@
+.wrapper {
+    position: relative;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        text-align: center;
+        padding: 25px;
+    }
+}
